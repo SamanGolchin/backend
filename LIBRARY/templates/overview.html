@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Hind+Siliguri&family=Slabo+27px&display=swap"
+      rel="stylesheet"
+    />
+    <title>LIBRARY</title>
+
+    <style>
+      *,
+      *::before,
+      *::after {
+        margin: 0;
+        padding: 0;
+        box-sizing: inherit;
+      }
+
+      html {
+        font-size: 62.5%;
+        box-sizing: border-box;
+      }
+
+      body {
+        padding: 5rem 5rem 10rem;
+        line-height: 1.7;
+        font-family: "Hind Siliguri", sans-serif;
+        color: #555;
+        min-height: 100vh;
+        background: linear-gradient(to bottom right, #5cb7cc, #fcfcfc);
+      }
+
+      h1 {
+        font-family: "Hind Siliguri", sans-serif;
+        font-size: 6rem;
+        color: white;
+        transform: skewY(-5deg);
+        text-align: center;
+        position: relative;
+        word-spacing: 3px;
+      }
+      .container {
+        width: 95rem;
+        margin: 0 auto;
+      }
+
+      .cards-container {
+        margin-top: 8rem;
+      }
+
+      .card {
+        background: white;
+        box-shadow: 0 2rem 6rem 1rem rgba(0, 0, 0, 0.15);
+        margin-bottom: 5rem;
+        transform: skewX(-20deg);
+        display: flex;
+        transition: all 0.5s;
+      }
+
+      .card__title-box {
+        background: linear-gradient(to bottom, #468c9e, #e5f2f5);
+        margin-right: auto;
+        display: flex;
+        align-items: center;
+        padding: 0 3rem;
+      }
+
+      .card__title {
+        font-family: "Hind Siliguri", sans-serif;
+        color: white;
+        font-size: 3.25rem;
+        transform: skewX(20deg);
+      }
+
+      .card__details {
+        display: flex;
+      }
+
+      .card__detail-box {
+        align-self: stretch;
+        border-right: 1px solid #ddd;
+        display: flex;
+        align-items: center;
+      }
+
+      .card__detail-box:last-child {
+        border: none;
+      }
+
+      .card__detail {
+        font-weight: 400;
+        font-size: 1.8rem;
+        transform: skewX(20deg);
+        padding: 1.75rem;
+      }
+
+      .card__detail--price {
+        font-weight: 900;
+        font-size: 1.9rem;
+      }
+    </style>
+  </head>
+
+  <body>
+    <div class="container">
+      <h1>&#128218; Library &#128218;</h1>
+
+      <div class="cards-container">{%BOOKS_CARDS%}</div>
+    </div>
+  </body>
+</html>

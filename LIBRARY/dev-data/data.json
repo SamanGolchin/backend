@@ -1,0 +1,32 @@
+[
+  {
+    "id": 0,
+    "bookname": "Camp Zero",
+    "writer": "Michelle Min Sterling",
+    "price": "6.50"
+  },
+  {
+    "id": 1,
+    "bookname": "Homecoming",
+    "writer": "Kate Morton",
+    "price": "16.0"
+  },
+  {
+    "id": 2,
+    "bookname": "Before We Were Innocent",
+    "writer": "Ella Berman",
+    "price": "8.50"
+  },
+  {
+    "id": 3,
+    "bookname": "The Golden Doves",
+    "writer": "Martha Hall Kelly",
+    "price": "6.0"
+  },
+  {
+    "id": 4,
+    "bookname": "Life in Five Senses",
+    "writer": "Gretchen Rubin",
+    "price": "9.50"
+  }
+]
